@@ -20,7 +20,7 @@ contract Uomi is ERC20, ERC20Permit, Ownable, AccessControl {
     );
 
     constructor() ERC20("UOMI", "UOMI") ERC20Permit("UOMI") Ownable(msg.sender) {
-        _mint(msg.sender, 31536000 * 10 ** decimals());
+        _mint(msg.sender, 4919219238 * 10 ** decimals());
         _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
         _grantRole(MINTER_ROLE, msg.sender);
     }
